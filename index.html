@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez les meilleurs plats sénégalais chez Teranga Restaurant à Dakar.">
+  <title>Teranga Restaurant | Cuisine sénégalaise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#accueil" class="logo">🍲 Teranga<span>.</span></a>
+
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#menu">Notre menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#menu" class="btn">Commander</a>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-content">
+        <p class="subtitle">BIENVENUE CHEZ TERANGA</p>
+        <h1>Le goût authentique du <span>Sénégal</span></h1>
+        <p>
+          Découvrez nos délicieux plats traditionnels préparés
+          avec amour, des ingrédients frais et les saveurs de chez nous.
+        </p>
+        <a href="#menu" class="btn">Découvrir le menu →</a>
+        <p class="location">📍 Dakar, Sénégal</p>
+      </div>
+    </section>
+
+    <section class="about section" id="apropos">
+      <div class="about-image">
+        <img
+          src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80"
+          alt="Cuisine et plats préparés">
+      </div>
+      <div class="about-content">
+        <p class="subtitle">NOTRE HISTOIRE</p>
+        <h2>La tradition sénégalaise dans votre assiette</h2>
+        <p>
+          Chez Teranga Restaurant, nous partageons la richesse de la
+          cuisine sénégalaise. Chaque plat est préparé avec soin pour
+          vous offrir une expérience savoureuse et conviviale.
+        </p>
+        <p>❤️ Des produits frais, des recettes traditionnelles et un accueil chaleureux.</p>
+        <a href="#contact" class="btn">Nous contacter</a>
+      </div>
+    </section>
+
+    <section class="menu section" id="menu">
+      <div class="section-heading">
+        <p class="subtitle">NOS SPÉCIALITÉS</p>
+        <h2>Notre menu sénégalais</h2>
+        <p>Les saveurs du Sénégal, préparées avec passion.</p>
+      </div>
+
+      <div class="filters">
+        <button class="filter active" data-category="tous">Tous les plats</button>
+        <button class="filter" data-category="poisson">Poisson</button>
+        <button class="filter" data-category="viande">Viande</button>
+        <button class="filter" data-category="poulet">Poulet</button>
+      </div>
+
+      <div class="menu-grid">
+        <article class="food-card" data-category="poisson">
+          <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80" alt="Plat de poisson">
+          <div class="food-info">
+            <span class="tag">Spécialité</span>
+            <h3>Thiéboudiène</h3>
+            <p>Riz au poisson, légumes et sauce traditionnelle.</p>
+            <div class="food-bottom">
+              <strong>3 500 FCFA</strong>
+              <button class="add-btn" data-name="Thiéboudiène" data-price="3500">+ Ajouter</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="food-card" data-category="poulet">
+          <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=700&q=80" alt="Poulet grillé">
+          <div class="food-info">
+            <span class="tag">Populaire</span>
+            <h3>Yassa poulet</h3>
+            <p>Poulet mariné au citron, oignons et riz parfumé.</p>
+            <div class="food-bottom">
+              <strong>3 000 FCFA</strong>
+              <button class="add-btn" data-name="Yassa poulet" data-price="3000">+ Ajouter</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="food-card" data-category="viande">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80" alt="Viande grillée">
+          <div class="food-info">
+            <span class="tag">Grillade</span>
+            <h3>Dibi</h3>
+            <p>Viande grillée, oignons et sauce relevée.</p>
+            <div class="food-bottom">
+              <strong>4 000 FCFA</strong>
+              <button class="add-btn" data-name="Dibi" data-price="4000">+ Ajouter</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="food-card" data-category="viande">
+          <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=80" alt="Plat en sauce">
+          <div class="food-info">
+            <span class="tag">Tradition</span>
+            <h3>Mafé</h3>
+            <p>Viande mijotée dans une délicieuse sauce à l'arachide.</p>
+            <div class="food-bottom">
+              <strong>3 000 FCFA</strong>
+              <button class="add-btn" data-name="Mafé" data-price="3000">+ Ajouter</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="food-card" data-category="poisson">
+          <img src="https://images.unsplash.com/photo-1510130387422-82bed34b37e9?auto=format&fit=crop&w=700&q=80" alt="Poisson cuisiné">
+          <div class="food-info">
+            <span class="tag">Frais</span>
+            <h3>Poisson braisé</h3>
+            <p>Poisson grillé accompagné de légumes et de citron.</p>
+            <div class="food-bottom">
+              <strong>4 500 FCFA</strong>
+              <button class="add-btn" data-name="Poisson braisé" data-price="4500">+ Ajouter</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="food-card" data-category="poulet">
+          <img src="https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=700&q=80" alt="Poulet rôti">
+          <div class="food-info">
+            <span class="tag">Gourmand</span>
+            <h3>Poulet braisé</h3>
+            <p>Poulet grillé aux épices avec accompagnement au choix.</p>
+            <div class="food-bottom">
+              <strong>3 500 FCFA</strong>
+              <button class="add-btn" data-name="Poulet braisé" data-price="3500">+ Ajouter</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="order-section section" id="commande">
+      <div>
+        <p class="subtitle">VOTRE COMMANDE</p>
+        <h2>Mon panier 🛒</h2>
+      </div>
+
+      <div id="cart-items" class="cart-items">
+        <p>Votre panier est vide. Ajoutez un plat du menu !</p>
+      </div>
+
+      <div class="cart-total">
+        <span>Total à payer</span>
+        <strong id="cart-total">0 FCFA</strong>
+      </div>
+
+      <button id="order-btn" class="btn" disabled>
+        Préparer ma commande
+      </button>
+      <p id="order-message" class="order-message"></p>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="subtitle">NOUS CONTACTER</p>
+      <h2>Venez partager un bon repas !</h2>
+      <p>📍 Dakar, Sénégal</p>
+      <p>🕒 Tous les jours : 10 h – 23 h</p>
+      <p>📞 Contactez-nous pour vos commandes et réservations.</p>
+      <a href="#commande" class="btn">Commander un plat</a>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#accueil" class="logo">🍲 Teranga<span>.</span></a>
+    <p>© 2026 Teranga Restaurant — La cuisine du Sénégal 🇸🇳</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
